@@ -1,10 +1,10 @@
 {
   "name": "sqltest",
   "version": "1.0.0",
-  "description": "",
   "main": "database.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -25,5 +25,6 @@
   },
   "devDependencies": {
     "nodemon": "^1.19.3"
-  }
+  },
+  "description": ""
 }
